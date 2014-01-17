@@ -5,7 +5,7 @@ A kit of front-ends for accessing toxicological web services, based on [AMBIT](h
 approach for using any or all of available front ends in third-party web pages.
 Each different front-end is referred as _kit_. Currently available are:
 
-- `study` - IUCTL
+- `study` - [IUCLID5](http://iuclid.eu/)
 - `tree` - a Web front end to OpenTox services. Currently developed as standalone web front-end and soon-to-be integrated in the kit. Described [below](#Toxtree.js).
 
 The toolkit is intended to be used by non-programmers, and thus it's integration process is rather simple - referring two files and marking a placeholder in HTML of where all the structure to be inserted. However, it relies that certain external libraries like [jQuery](http://www.jquery.com) and some of [jQueryUI](http://www.jqueryui.com) widgets are already included in the page.
@@ -57,7 +57,7 @@ As, can be seen, the later three callbacks can be local for each kit, so it is p
 
 ### jToxStudy kit
 
-This kit gives front-end to AMBIT services, which provide import of IUCTL generated and maintained data for toxicological studies (experiments). The kit name is `study` (for use in `data-kit` initialization attribute). First, there are several additional
+This kit gives front-end to AMBIT services, which provide import of [IUCLID5](http://iuclid.eu/) generated and maintained data for toxicological studies (experiments). The kit name is `study` (for use in `data-kit` initialization attribute). First, there are several additional
 
 ##### Dependencies
 
